@@ -1,0 +1,23 @@
+canvas
+{
+    animation-name: wesd;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: 1px ;
+}
+
+@keyframes wesd{
+    from{box-shadow: 1px 1px 100px chocolate;}
+    to{box-shadow: 1px 1px 100px darkcyan;}
+    to{box-shadow: 1px 1px 100px thistle;}
+    to{box-shadow: 1px 1px 100px greenyellow;}
+    to{box-shadow: 1px 1px 100px hotpink;}
+    to{box-shadow: 1px 1px 100px skyblue;}
+    to{box-shadow: 1px 1px 100px yellow;}
+    to{box-shadow: 1px 1px 100px chocolate;}
+}
+
+body
+{
+   background-color: rgb(167, 207, 176);
+}
